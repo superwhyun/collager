@@ -15,7 +15,7 @@
 
 1. 이 저장소를 클론합니다:
    ```
-   git clone https://github.com/your-username/a4-collage-creator.git
+   git clone https://github.com/superwhyun/collager.git
    ```
 
 2. 필요한 라이브러리를 설치합니다:
