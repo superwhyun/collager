@@ -344,6 +344,13 @@ class CollageApp(QWidget):
     def initUI(self):
         self.setWindowTitle('콜라주 생성기')
         self.setGeometry(300, 300, 500, 300)
+        
+        # 아이콘 설정
+        icon_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "icon.ico")
+        if os.path.exists(icon_path):
+            self.setWindowIcon(QIcon(icon_path))
+        else:
+            print(f"아이콘 파일을 찾을 수 없습니다: {icon_path}")
 
         layout = QVBoxLayout()
 
